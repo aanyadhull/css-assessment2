@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+   padding: 0;
+}
+body{
+    background-image: url(./img.jpg);
+     border: 5px groove rgb(41, 230, 60);
+     padding: 10px; 
+     background-size: cover;
+
+}
+.box{
+    background-color: black;
+    border: 7px solid red;
+    height: 120px;
+    width: 370px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+     padding-top: 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    font-style: italic;
+    display: inline-block;
+}
+.box1{
+    background-color: black;
+    border: 7px solid red;
+    height: 70px;
+    width: 400px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: -125px;
+    box-sizing: border-box;
+    font-style: italic;
+    display: inline-block;
+    position: absolute;top: 30px;
+
+    }
+    .box2{
+        background-color: black;
+        border: 7px solid red;
+        height: 130px;
+        width: 300px;
+        color: white;
+        border-radius: 30px;
+        text-align: center;
+         padding-top: 20px;
+        margin:3px;
+        box-sizing: border-box;
+        font-style: italic;
+        display: inline-block;
+        position: absolute;right:300px;
+    }
+    .circle{
+        background-color: lightseagreen;
+        color: black;
+        border-radius: 50%;
+        position: absolute;left:100px;
+        text-align: center;
+        text-decoration: underline;
+        border: 7px solid gray;
+        margin-top: 400px;
+        padding-top: 40px;
+        padding-right: 10px;
+        padding-left:10px ;
+        padding-bottom: 40px;
+        display: inline-block;
+    }
+    hr{
+        background-color: white;
+        width:100%;margin-left: 0;margin-right: 0;
+    
+    }
+    .form{
+        background-color: white;
+        border: 7px dashed red;
+        height: 550px;
+        width: 350px;
+        color:tomato;
+       text-align: center;
+        padding: 15px;
+        margin-top: 250px; 
+        box-sizing: border-box;
+        display: inline-block; 
+         position: absolute;right:300px;
+    }
+    
+    input:hover, select:hover {
+        border-color: dodgerblue;
+    
+      }
+    
+    .newbox{
+        background-color: black;
+        border: 7px solid red;
+        height: 70px;
+        width: 500px;
+        color: white;
+        border-radius: 30px;
+        text-align: center;
+         padding-top: 20px;
+        margin-top: 55%;
+        margin-left: 350px;
+        font-style: italic;
+       display:inline-block;
+
+    }
+    .flex-container{
+        background-color: aquamarine;
+        color: blue;
+        border: 2px solid green;
+    height: 220px;
+    width: 240px;
+    padding: 20px;
+    text-align: center;
+     margin: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: column;
+    display: inline-block;
+    justify-content: space-around;
+    }
+    .flex-item{
+        color: blue;
+        padding-top: 40px;
+        text-align: center;
+      
+    }
+  
+    
